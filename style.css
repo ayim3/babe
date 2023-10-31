@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'handwrite';
+  src: url('DancingScript-VariableFont_wght.ttf');
+}
+
+html {
+  font-family: 'handwrite';
+}
+
+body {
+  height: 100vh;
+  margin: 3;
+  padding: 0 1rem;
+}
+
+footer {
+  font-size: .8em;
+  margin: 4em;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.time {
+  font-size: 1em;
+}
